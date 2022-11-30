@@ -18,6 +18,8 @@ if __name__ == '__main__':
         auth_password = credentials['password']
 
     login_url = 'https://vmchecker.cs.pub.ro/ui/'
+
+    # your assignment url here
     url = 'https://vmchecker.cs.pub.ro/ui/#ADC'
     driver = webdriver.Chrome(service=Service())
     driver.get(url)
